@@ -66,7 +66,7 @@ function playGame(gameResults) { //pulls computer and player choices to prepare 
         console.log("Round " + gameRound + ": Computer's " + computerChoiceEnglish + " vs player's " + playerChoiceEnglish + ". Computer wins. Player score: " + playerScore);
     } else {
         console.log("You've submitted an impossible answer.") //if user submits a non-choice, this is the result. no rounds added.
-    }
+    };
 };
 
 function game() { //Will play for 5 win/loss rounds. Ties and errors do not count.

@@ -5,4 +5,12 @@ This is a practice program to test my learned java skills
 
 a simple Rock Paper Scissors game, with output to the console.
 
+What I learned:
+* The correct use of =, ==, and ===
+* The important difference between var, let, and const
+* First attempt at a do/while loop (which has not been taught in the course yet)
+* How to account for NaN/unacceptable user submissions
+* Nesting functions and global vs. local variable use
+
+
 
