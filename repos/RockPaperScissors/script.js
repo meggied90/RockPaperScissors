@@ -23,25 +23,21 @@ function playerChoiceToValue() {
     };
 };
 
-//calculates whether the player won (-1, 2), tied (0), or lost
-
 let playerScore = 0
 let gameRound = 0
 let playerSelection = playerChoiceToValue();
 
-
 function playGame(gameResults) {
     var computerSelection = computerChooses();
+    //calculates whether the player won (-1, 2), tied (0), or lost
     var gameResults = computerSelection-playerSelection;
     if (gameResults = 0) {
-        console.log("It's a tie");
+        console.log("It's a tie, rematch!");
     } else if ((gameResults = -1) || (gameResults = 2)) {
-        console.log("Player wins");
         playerScore++
         gameRound++
         console.log("Round: " + gameRound + ": Computer: " + computerSelection + " vs Player: " + playerSelection + ". Player score: " + playerScore);
     } else {
-        console.log("Player loses");
         console.log("Round: " + gameRound + ": Computer: " + computerSelection + " vs Player: " + playerSelection + ". Player score: " + playerScore);
         gameRound++;
     };
