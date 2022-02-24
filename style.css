@@ -47,8 +47,9 @@ p.rounds {
     font-weight: normal;
 }
 
-.eachScore {
+.score {
     margin: 10px;
+    
 }
 
 .weapons {  
@@ -62,4 +63,9 @@ p.rounds {
 
 .results {
     text-align: center;
+}
+
+.winner {
+    text-shadow: 0px 0px 10px green;
+    transition: text-shadow .2s ease;
 }
