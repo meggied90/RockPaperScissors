@@ -1,9 +1,14 @@
 This project is being done in conjunction with The Odin Project
 www.theodinproject.com
 
-This is a practice program to test my learned java skills
+This is a practice program to test my learned java skills.
 
-a simple Rock Paper Scissors game, with output to the console.
+a simple Rock Paper Scissors game, originally only with output to the console.
+
+23 Feb 2022
+* Created UI for user to use instead of console
+* Practice with event listeners and DOM tree changes
+
 
 21 Feb 2022
 * I've gotten a better understanding of array functions and string comparisons, nixed the 1,2,3 conversion I had before
